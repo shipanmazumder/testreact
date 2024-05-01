@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Hello World Laravel and React</title>
-    <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="{{ mix('js/app.jsx') }}" defer></script>
     @viteReactRefresh
     @vite(['resources/js/app.jsx', 'resources/css/app.css'])
 </head>
